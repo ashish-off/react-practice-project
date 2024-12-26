@@ -35,3 +35,6 @@ The goal of this repository is to document my progress and experiments as I lear
 
 ![Screenshot 2024-12-26 210410](https://github.com/user-attachments/assets/63c82c90-e344-479e-b00e-ef33971b1770)
 
+- Calculator
+
+![image](https://github.com/user-attachments/assets/a59c584a-316f-42ee-b280-89b2253ab5e9)
