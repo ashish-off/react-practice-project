@@ -27,3 +27,7 @@ The goal of this repository is to document my progress and experiments as I lear
 
 ![Screenshot 2024-12-18 221311](https://github.com/user-attachments/assets/a0230b3c-633f-49e2-9855-4a6924732a60)
 
+- Todo App
+
+  ![image](https://github.com/user-attachments/assets/54d694f7-3ee8-4ef9-9cbb-c1fa641cba85)
+
