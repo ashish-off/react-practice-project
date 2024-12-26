@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f5ebe0;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.card {
+  background: #d6ccc2;
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+  margin: 10px;
+  padding: 30px;
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+p {
+  font-weight: bold;
+}
+
+img {
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+}
