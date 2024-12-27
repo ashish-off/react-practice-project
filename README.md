@@ -38,3 +38,11 @@ The goal of this repository is to document my progress and experiments as I lear
 - Calculator
 
 ![image](https://github.com/user-attachments/assets/a59c584a-316f-42ee-b280-89b2253ab5e9)
+
+- Show-quotes
+
+![image](https://github.com/user-attachments/assets/d10acf51-4201-42ca-97fe-0405f01b2f74)
+
+- Accordations
+
+![image](https://github.com/user-attachments/assets/b9215d17-f6bf-4412-8a81-1a5e83e96885)
