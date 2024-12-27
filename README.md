@@ -11,6 +11,7 @@ The goal of this repository is to document my progress and experiments as I lear
 - React
 - JavaScript
 - TypeScript
+- CSS
 - Tailwind CSS
 
 ## Notes
