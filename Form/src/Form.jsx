@@ -20,7 +20,39 @@ const Form = () => {
 
   function validate (e) {
     e.preventDefault();
-    console.log("validiate");
+    
+    if(username.length > 8){
+      setErorUserName('');
+      setUserColor("green");
+    }else{
+      setErorUserName("Username must be at least 8 characters");
+      setUserColor("red");
+    }
+
+    if(email.includes("@gmail.com")){
+      setErrorEmail("");
+      setEmailColor("green"); 
+    }else{
+      setErrorEmail("Email must conntain '@gmail.com'");
+      setEmailColor("red");
+    }
+
+    if (password.length > 8) {
+      setErrorPassword("");
+      setPasswordColor("green");
+    } else {
+      setErrorPassword("Password must be at least 8 characters");
+      setPasswordColor("red");
+    }
+
+    if (password != "" && password == confirmPassword) {
+      setErrorConfirmPassword("");
+      setConfirmPasswordColor("green");
+    } else {
+      setErrorConfirmPassword("Passwords didn't matched.");
+      setConfirmPasswordColor("red");
+    }
+    
     
   }
 
@@ -65,7 +97,7 @@ const Form = () => {
             />
             <p className="error">{errorConfrimPassword}</p>
 
-            <button className="submit-btn" onClick={validate}>Submit</button>
+            <button type="submit" className="submit-btn" onClick={validate}>Submit</button>
           </form>
         
       </div>
