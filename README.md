@@ -18,6 +18,7 @@ The goal of this repository is to document my progress and experiments as I lear
 
 - These projects are purely for learning and experimentation.
 - Feedback and suggestions are always welcome!
+- linkedin : www.linkedin.com/in/ashish-saud-55ab57294
 
 ## DEMOS
 - Background Changer:
