@@ -53,3 +53,7 @@ The goal of this repository is to document my progress and experiments as I lear
 - Form 
 
 ![image](https://github.com/user-attachments/assets/0c73bb06-5d70-4497-a049-9f53880ac63d)
+
+- routerProject : learned about routing in react components 
+
+![image](https://github.com/user-attachments/assets/0ed38fc8-a022-4209-87e9-332af9023044)
