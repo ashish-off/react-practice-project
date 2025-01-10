@@ -57,3 +57,7 @@ The goal of this repository is to document my progress and experiments as I lear
 - routerProject : learned about routing in react components by : Chai aur Code
 
 ![image](https://github.com/user-attachments/assets/0ed38fc8-a022-4209-87e9-332af9023044)
+
+- themeSwitcher : in this project ive learnd deep about contextApi
+
+![image](https://github.com/user-attachments/assets/46ae4a2e-0318-403d-86d1-7690c68dda79)
