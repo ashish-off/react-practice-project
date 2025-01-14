@@ -65,3 +65,7 @@ The goal of this repository is to document my progress and experiments as I lear
 - todo-contextApi-localStorage : in this project i've learned deep about contextApi and and use of useContext hook throughout the components , by: Chai aur Code
 
 ![image](https://github.com/user-attachments/assets/0bbf1a61-89d1-4486-a896-a26d44b6eb43)
+
+-tabs : a mini project made for practicing react with typescript and tailwind css
+
+![tabs](https://github.com/user-attachments/assets/57556cfe-3a26-49ed-a98d-ea5465f3611e)
