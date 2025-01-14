@@ -56,15 +56,17 @@ The goal of this repository is to document my progress and experiments as I lear
 
 - routerProject : learned about routing in react components by : Chai aur Code
 
-![image](https://github.com/user-attachments/assets/0ed38fc8-a022-4209-87e9-332af9023044)
+![reactRouting project](https://github.com/user-attachments/assets/e74fcd84-19da-4950-ba30-b4a9223a8163)
+
 
 - themeSwitcher : in this project ive learnd deep about contextApi
 
-![image](https://github.com/user-attachments/assets/46ae4a2e-0318-403d-86d1-7690c68dda79)
+![themeSwitcher](https://github.com/user-attachments/assets/2e4ea3c5-7487-425f-9798-269e8cc2551b)
+
 
 - todo-contextApi-localStorage : in this project i've learned deep about contextApi and and use of useContext hook throughout the components , by: Chai aur Code
 
-![image](https://github.com/user-attachments/assets/0bbf1a61-89d1-4486-a896-a26d44b6eb43)
+![todo-contextApi](https://github.com/user-attachments/assets/0bf22b39-378c-41a2-8ddf-e07d8e25daa0)
 
 -tabs : a mini project made for practicing react with typescript and tailwind css
 
