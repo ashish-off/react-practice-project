@@ -4,7 +4,6 @@ import { dataType } from "../utils/data";
 import { BiSort } from "react-icons/bi";
 import { AiOutlineDown } from "react-icons/ai";
 import { MdSort } from "react-icons/md";
-import { BsThreeDots } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Table = () => {
@@ -209,7 +208,7 @@ const Table = () => {
                 <label className="block text-white">Filter by Project:</label>
                 <input
                   type="text"
-                  name="project"
+                  name="projects"
                   value={filters.projects}
                   onChange={handleFilterChange}
                   className="bg-gray-900 text-white rounded p-2 w-full"
