@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const AxiosPut = () => {
+const AxiousPost = () => {
 
   const [data, setData] = useState({});
   const [yes, setYes] = useState(false);
@@ -11,11 +11,11 @@ const AxiosPut = () => {
   });
 
   // post request
-  const PutApi = async () => {
-    const res = await API.put("/2", {
-      name: "ashish saud Put",
+  const postApi = async () => {
+    const res = await API.post("", {
+      name: "ashish saud",
       email: "ashish@gmail.com",
-      age: "002000",
+      age: "1111",
       description: "Data scientist and machine learning enthusiast.",
       gender: "Male",
     });
@@ -29,11 +29,11 @@ const AxiosPut = () => {
   };
 
   useEffect(() => {
-    PutApi();
+    postApi();
   }, [yes]);
   return (
     <div>
-      <h1>put , update</h1>
+      <h1>POST</h1>
       <button onClick={() => setYes(!yes)}>PUT</button>
       <ul>
           <li key={data.id}>
@@ -45,6 +45,6 @@ const AxiosPut = () => {
       </ul>
     </div>
   );
-};
+}
 
-export default AxiosPut;
+export default AxiousPost
