@@ -6,14 +6,16 @@ import Api from "./Api";
 import AxiosGet from "./AxiosGet";
 import AxiosPut from "./AxiosPut";
 import AxiousPost from "./AxiousPost";
+import AxiosDelete from "./AxiosDelete";
 
 const App = () => {
   return (
     <div>
       {/* <Api /> */}
-      {/* <AxiosGet /> */}
+      <AxiosGet />
       {/* <AxiousPost /> */}
-      <AxiosPut />
+      {/* <AxiosPut /> */}
+      {/* <AxiosDelete /> */}
     </div>
   );
 };

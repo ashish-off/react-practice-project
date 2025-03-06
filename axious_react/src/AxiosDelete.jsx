@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const AxiousPost = () => {
+const AxiosDelete = () => {
 
   const [data, setData] = useState({});
   const [yes, setYes] = useState(false);
@@ -11,14 +11,8 @@ const AxiousPost = () => {
   });
 
   // post request
-  const postApi = async () => {
-    const res = await API.post("", {
-      name: "ashish saud",
-      email: "ashish@gmail.com",
-      age: "1111",
-      description: "Data scientist and machine learning enthusiast.",
-      gender: "Male",
-    });
+  const deleteApi = async () => {
+    const res = await API.delete("/3");
 
     try {
       res && console.log(res.data);
@@ -29,12 +23,12 @@ const AxiousPost = () => {
   };
 
   useEffect(() => {
-    postApi();
+    deleteApi();
   }, [yes]);
   return (
     <div>
-      <h1>POST</h1>
-      <button onClick={() => setYes(!yes)}>PUT</button>
+      <h1>Delete</h1>
+      <button onClick={() => setYes(!yes)}>rerender</button>
       <ul>
           <li key={data.id}>
             <p>Id : {data.id}</p>
@@ -47,4 +41,4 @@ const AxiousPost = () => {
   );
 }
 
-export default AxiousPost
+export default AxiosDelete

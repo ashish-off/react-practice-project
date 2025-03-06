@@ -7,7 +7,7 @@ const AxiosPut = () => {
   const [yes, setYes] = useState(false);
 
   const API = axios.create({
-    baseURL: "https://67a23a30409de5ed5254bc5d.mockapi.io/ashishcrud",
+    baseURL: "https://67a23a30409de5ed5254bc5d.mockapi.io/ashishaxios",
   });
 
   // post request
